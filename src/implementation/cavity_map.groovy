@@ -4,10 +4,6 @@ package implementation
  * Created by Tim Sloan on 22/09/15.
  */
 
-/**
- * Created by Tim Sloan on 22/09/15.
- */
-
 /*
 Problem Statement
 
