@@ -45,18 +45,14 @@ Task
 The method insertionSort takes in one parameter: ar, an unsorted array. Use an Insertion Sort Algorithm to sort the entire array.
  */
 
-def sortOneValue(int val, List theArray, int limit) {
-    int pointer = limit  //0-index based array
+def sortOneValue(int val, List theArray, int pointer) {
     while (theArray[pointer - 1] > val && pointer > 0) {
-        currentVal = theArray[pointer - 1]
         theArray[pointer] = theArray[pointer - 1]
         pointer--
     }
 
     theArray[pointer] = val
-
     println theArray.toList().join(" ")
-    return theArray
 }
 
 System.in.withReader { br ->
@@ -64,6 +60,6 @@ System.in.withReader { br ->
     def theArray = br.readLine().tokenize()*.toInteger()
 
     (1..sizeArray - 1).each {
-        theArray = sortOneValue(theArray[it], theArray, it)
+        sortOneValue(theArray[it], theArray, it)
     }
 }
