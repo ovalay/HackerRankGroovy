@@ -1,18 +1,19 @@
+package warmup
 
 /*
 Problem Statement
 
-Your teacher has given you the task to draw the structure of a staircase. Being an expert programmer, you decided to make a program for the same. You are given the height of the staircase. You need to print a staircase as shown in the example.
+Your teacher has given you the task to draw the structure of a warmup.staircase. Being an expert programmer, you decided to make a program for the same. You are given the height of the warmup.staircase. You need to print a warmup.staircase as shown in the example.
 
 Input Format
 
-You are given an integer N depicting the height of the staircase.
+You are given an integer N depicting the height of the warmup.staircase.
 
 Constraints
 1≤N≤100
 Output Format
 
-Draw a staircase of height N in the format given below.
+Draw a warmup.staircase of height N in the format given below.
 
 For example:
 

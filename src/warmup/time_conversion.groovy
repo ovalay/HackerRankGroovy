@@ -1,6 +1,7 @@
+package warmup
 
- /*
- Problem Statement
+/*
+Problem Statement
 
 You are given time in AM/PM format. Convert this into a 24 hour format.
 
@@ -28,7 +29,7 @@ Sample Input
 Sample Output
 
 19:05:45
-  */
+ */
 
 System.in.withReader { br ->
     Date oldDate = Date.parse("hh:mm:ssaa", br.readLine())
