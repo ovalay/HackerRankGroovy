@@ -1,4 +1,4 @@
-package strings
+package algorithms.strings
 
 /**
  * Created by Tim Sloan on 30/09/15.

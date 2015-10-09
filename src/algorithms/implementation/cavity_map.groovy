@@ -1,4 +1,4 @@
-package implementation
+package algorithms.implementation
 
 /**
  * Created by Tim Sloan on 22/09/15.

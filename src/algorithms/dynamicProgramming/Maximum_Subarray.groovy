@@ -1,4 +1,4 @@
-package dynamicProgramming
+package algorithms.dynamicProgramming
 
 /**
  * Created by Tim Sloan on 01/10/15.

@@ -1,4 +1,4 @@
-package graphs
+package algorithms.graphs
 
 /**
  * Created by Tim Sloan on 06/10/15.
