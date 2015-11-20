@@ -1,2 +1,2 @@
 # HackerRankGroovy
-Some solutions to hacker rank problems in groovy
+Some solutions to hackerrank.com problems in groovy. Mainly algorithms
