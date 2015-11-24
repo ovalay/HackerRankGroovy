@@ -66,6 +66,8 @@ System.in.withReader { br->
     def apt = inputs[3]
     def total = 0
 
+
+    //the only possible soltuion to this is an n^4 algorithm. Presumably why inputs are restricted to less than 60
     for (int ft in 1..town) {
         for (int fs in 1..street) {
             if ((ft - fs)%3 == 0) {
