@@ -8,3 +8,5 @@ println myString.toList()
 println myString.toList().collect{it.toInteger()}.sum()
 
 println myString.findAll {it.toInteger() % 2 == 0}
+
+//test git username
